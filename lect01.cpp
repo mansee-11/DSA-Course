@@ -12,4 +12,13 @@ int main()
     int newprice=(int) price;
     cout<<price<<"\n"<<newprice<<"\n";
     return 0;
+
+    //uranary operator
+    
+    int x=10;
+    int y=x++;  // post incriment first assign then increment
+    cout<<x<<"\n"<<y;
+
+    y=++x;      //pre increment first increment then assign
+    cout<<x<<"\n"<<y;
 }
