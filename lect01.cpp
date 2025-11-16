@@ -11,14 +11,14 @@ int main()
     double price=100.99;
     int newprice=(int) price;
     cout<<price<<"\n"<<newprice<<"\n";
-    return 0;
 
     //uranary operator
-    
+
     int x=10;
     int y=x++;  // post incriment first assign then increment
-    cout<<x<<"\n"<<y;
+    cout<<x<<"\n"<<y<<"\n";
 
     y=++x;      //pre increment first increment then assign
     cout<<x<<"\n"<<y;
+    return 0;
 }
