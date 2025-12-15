@@ -8,7 +8,8 @@ int main()
     cin>>a>>b;
     //a>b?cout<<"a greater":cout<<"b greater";    //1st way
     cout<<(a>b?"a greater":"b greater");        //2nd way
-    
+    */
+   
     //practice que to print prime no till given no
     int i,n,j;
     cout<<"enter a number:- ";
@@ -22,7 +23,6 @@ int main()
         }
         if(j>(i/2)) cout<<"\n"<<i;
     }
-    */
     
     //pattern practice que
     int i,j,num=1;
